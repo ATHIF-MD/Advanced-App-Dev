@@ -1,0 +1,40 @@
+/* FAQ.css */
+
+.faq-container {
+  max-width: 800px;
+  margin: 50px auto; /* Add some margin for better spacing */
+  padding: 20px;
+  background-color: #f9f9f9; /* Change background color for better readability */
+  border-radius: 10px; /* Add border radius for a softer look */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+.faq-item {
+  margin-bottom: 30px; /* Increase margin for better separation between items */
+}
+
+.faq-item h3 {
+  font-size: 20px; /* Increase font size for question titles */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.faq-item p {
+  font-size: 16px;
+  line-height: 1.6; /* Adjust line height for better readability */
+}
+
+.back-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #041c51;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
