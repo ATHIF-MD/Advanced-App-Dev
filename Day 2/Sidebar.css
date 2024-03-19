@@ -1,0 +1,69 @@
+/* Sidebar.css */
+
+.sidebar {
+  width: 12px; /* Adjust the width as needed */
+  height: 160%;
+  
+  background-color: #041c51;
+  color: #000;
+  position: fixed;
+  top: 60px;
+  left: 0px;
+  overflow-y: auto;
+  transition: width 0.3s ease-in-out; /* Add a smooth transition effect for width */
+  z-index: 99; /* Ensure the sidebar is on top of other content */
+}
+
+.sidebar.active {
+  width: 75px; /* Adjust the collapsed width as needed */
+}
+
+.sidebar-header {
+  text-align: center;
+  padding: 25px 0;
+}
+
+.sidebar h2 {
+  margin: 0;
+  color: #000;
+}
+
+.sidebar-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Set display to flex */
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.sidebar-menu li {
+  padding: 20px; /* Adjust padding as needed */
+  cursor: pointer;
+  transition: background-color 0.2s;
+  width: 1000%; /* Ensure the width of the menu items is 100% */
+  text-align: center; /* Center text */
+}
+
+.sidebar-menu li:hover {
+  background-color: #032d4e;
+  text-decoration: underline;
+  color: #ffa201;
+}
+
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #000;
+}
+
+.close-btn:hover {
+  color: #2c2828;
+  text-decoration: underline;
+  color: #ffa201;
+}
+

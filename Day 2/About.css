@@ -1,0 +1,63 @@
+.about-container {
+  background-color: #f2f2f2; /* Background color for the entire section */
+  padding: 40px;
+  background-image: url("D:\vjf-1\src\Asset\hp.jpg");
+  background-size: cover; /* Ensure the background image covers the entire container */
+  background-position: center; /* Center the background image */
+  text-align: center;
+}
+
+.about-content {
+  background-color: rgba(255, 255, 255, 0.9); /* Use RGBA to add transparency to the background */
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  color: #333; /* Heading color */
+  font-size: 24px; /* Increase heading font size */
+}
+
+p {
+  margin: 15px 0;
+  color: #666; /* Text color */
+  font-size: 16px; /* Increase paragraph font size */
+  line-height: 1.5; /* Add line height for better readability */
+}
+
+a {
+  color: #007bff; /* Link color */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Style the unordered list */
+.about-content ul {
+  list-style-type: disc; /* Style for list bullets */
+  margin-left: 20px; /* Add some margin for better indentation */
+}
+
+.about-content li {
+  font-size: 18px; /* Increase the font size for list items */
+  margin-bottom: 10px; /* Add space between list items */
+}
+.back-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #041c51;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: background-color 0.3s;
+  
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
